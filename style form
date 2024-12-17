@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            input[type=text]{
+                border-radius: 30px;
+            }
+            input[type=password]{
+                border: 1px solid red;
+            }
+            input:focus{
+                background-color: #ccc;
+            }
+        </style>
+    </head>
+    <body>
+        <form>
+            <input type="text" placeholder="usuario">
+            <input type="password" placeholder="senha">
+            
+            <div>
+                <button>entrar</button>
+            </div>
+        </form>
+    </body>
+</html>
